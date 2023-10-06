@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Protectora</title>
+    </head>
+    <body>
+        <h1>Protectoras</hi>
+        
+
+        {% for protectora in protectora_mostrar %}
+            <article>
+                <h3>Nombre protectora: {{protectora.nombre}}</h3>
+                <p>Descripcion: {{protectora.descripcion}}</p>
+                <time>Fecha creacion: {{protectora.fecha_creacion}}</time>
+            </article>
+
+        {% endfor %}
+
+        
+    </body>
+
+
+</html>

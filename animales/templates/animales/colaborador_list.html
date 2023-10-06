@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Colaborador</title>
+    </head>
+    <body>
+        <h1>Colaboradores</hi>
+        
+
+        
+
+        {% for colaborador in colaborador_mostrar %}
+            <article>
+                <h3>Nombre colaborador: {{colaborador.nombre}}</h3>
+                <p>cargo: {{colaborador.cargo}}</p>
+                <time>Fecha entrada: {{colaborador.fecha_entrada_protectora}}</time>
+            </article>
+
+        {% endfor %}
+    </body>
+
+
+</html>
